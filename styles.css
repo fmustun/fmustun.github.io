@@ -508,6 +508,12 @@ main p {
   border: 1px solid rgba(200, 155, 60, 0.35);
 }
 
+.pub-status.accepted {
+  color: var(--primary);
+  background: var(--primary-light);
+  border: 1px solid rgba(15, 76, 92, 0.3);
+}
+
 .pub-links {
   margin-top: 0.9rem;
 }

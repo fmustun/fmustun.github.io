@@ -6,12 +6,12 @@ title: ""
 
 ::: {.profile-card .profile-panel}
 
-<img src="photo_profile.jpeg" class="profile-pic" alt="Portrait of Faadil Mustun">
+<img src="defense_crop.jpg" class="profile-pic" alt="Portrait of Faadil Mustun">
 
 <h1 class="profile-name">Faadil Mustun</h1>
 
 <p class="profile-subtitle">
-PhD Candidate · Univ. Paris Cité / ENS Paris
+Postdoctoral Researcher · ENS Paris
 </p>
 
 <nav class="contact-links" aria-label="Contact links">
@@ -27,7 +27,7 @@ PhD Candidate · Univ. Paris Cité / ENS Paris
 
 ## About
 
-I am a PhD candidate at the Institut de Biologie de l'École Normale Supérieure (IBENS) and Université Paris Cité. I hold a Bachelor's degree in Mathematics from Université Pierre et Marie Curie and a Master's degree in Applied Mathematics (Statistics) from Sorbonne Université.
+I am a postdoctoral researcher at the Institut de Biologie de l'École Normale Supérieure (IBENS), where I also completed my PhD (Université Paris Cité, 2026). I hold a Bachelor's degree in Mathematics from Université Pierre et Marie Curie and a Master's degree in Applied Mathematics (Statistics) from Sorbonne Université.
 
 My research lies at the intersection of **bioacoustics, animal communication,** and **machine learning**. Using large-scale longitudinal acoustic datasets and self-supervised learning approaches, I investigate how dolphin vocalizations encode information about identity, social relationships, and interaction dynamics.
 
@@ -40,6 +40,18 @@ More broadly, I am interested in developing computational tools to uncover the p
 ## News
 
 <section class="news-list">
+
+<article class="news-card featured">
+  <div class="news-meta">01 Oct 2026</div>
+  <h3>PhD successfully defended</h3>
+  <p>Successfully defended my PhD in front of a jury composed of Olivier Adam, Hervé Glotin, Laela Sayigh and Marcelo Rozenberg.</p>
+</article>
+
+<article class="news-card featured">
+  <div class="news-meta">25 Sep 2026</div>
+  <h3>OpenWhistle accepted as a NeurIPS spotlight</h3>
+  <p>Our paper <a href="#openwhistle">OpenWhistle</a> was accepted as a spotlight paper at NeurIPS 2026.</p>
+</article>
 
 <article class="news-card">
   <div class="news-meta">24 Mar 2026</div>
@@ -76,8 +88,7 @@ More broadly, I am interested in developing computational tools to uncover the p
 
 ## Publications
 
-<!--
-::: {.columns .pub-card}
+::: {#openwhistle .columns .pub-card}
 
 ::: {.column width="30%"}
 
@@ -87,22 +98,22 @@ More broadly, I am interested in developing computational tools to uncover the p
 
 ::: {.column width="70%"}
 
-<h3>OpenWhistle: A Large-Scale Longitudinal Dataset and Benchmark of Bottlenose Dolphin Vocalizations <span class="pub-status under-review">Under review</span></h3>
+<h3>OpenWhistle: A Large-Scale Longitudinal Dataset and Benchmark of Bottlenose Dolphin Vocalizations <span class="pub-status accepted">NeurIPS 2026 Spotlight</span></h3>
 
 **F. Mustun**, C. Semenzin (*equal contribution*), R. Dessì, P. Robin Guerrero, P. Orhan, A. Emanuelli, E. Rossi, Y. Lakretz, G. de Polavieja, G. Sumbre.
 
-OpenWhistle introduces a large-scale longitudinal dataset of approximately 180,000 bottlenose dolphin whistles recorded over five years. The dataset includes expert annotations and benchmarks for whistle-type detection and classification, providing a resource for the development and evaluation of machine learning methods in dolphin bioacoustics.
+OpenWhistle is the largest publicly available dataset of bottlenose dolphin vocalizations: approximately 180,000 whistles (114 hours) recorded over five years from a stable pod of five individuals in a semi-natural environment. It includes 8,354 expert-annotated whistles, reproducible detection and classification benchmarks, the full processing pipeline, and a Wav2Vec2.0 model pretrained specifically on dolphin acoustics.
 
 ::: {.pub-links}
-[Preprint coming soon](#){.pub-button .secondary}
-[Dataset coming soon](#){.pub-button .secondary}
-[Code coming soon](#){.pub-button .secondary}
+[Paper](https://arxiv.org/abs/2609.34839){.pub-button}
+[Project page](https://sumbre-lab.github.io/openwhistle/){.pub-button .secondary}
+[Code](https://github.com/sumbre-lab/OpenWhistle){.pub-button .secondary}
+[Dataset](https://huggingface.co/collections/dolphinteam/neurips26-openwhistle){.pub-button .secondary}
 :::
 
 :::
 
 :::
--->
 
 ::: {#dolph2vec .columns .pub-card}
 
@@ -219,7 +230,7 @@ Lisbon.
 
 ## Education
 
-**PhD Student** — Université Paris Cité / École Normale Supérieure - Paris, 2022-Present
+**PhD** —Université Paris Cité / École Normale Supérieure - Paris, 2022-2026
 
 **Master’s Degree in Applied Mathematics (Specialization: Statistics)** — Sorbonne Universités - Paris, 2019
 
@@ -227,7 +238,10 @@ Lisbon.
 
 ## Research Experience
 
-**PhD Candidate**, Institut de Biologie de l'École Normale Supérieure (IBENS), Université Paris Cité, Paris, France *(2022–Present)*  
+**Postdoctoral Researcher**, INSERM / IBENS, Paris, France *(2026–Present)*  
+Research on dolphin communication, bioacoustics, and machine learning.
+
+**PhD Candidate**, Institut de Biologie de l'École Normale Supérieure (IBENS), Université Paris Cité, Paris, France *(2022–2026)*  
 Research on dolphin communication, bioacoustics, and machine learning.
 
 **Statistical Engineer**, INSERM / IBENS, Paris, France *(2021–2022)*  
