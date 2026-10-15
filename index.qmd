@@ -59,7 +59,7 @@ More broadly, I am interested in developing computational tools to uncover the p
 <article class="news-card featured">
   <div class="news-meta">25 Sep 2026</div>
   <h3><span class="news-emoji" aria-hidden="true">🌟</span>OpenWhistle accepted as a NeurIPS spotlight</h3>
-  <p>Our paper <a href="#openwhistle">OpenWhistle</a> was accepted as a spotlight paper at NeurIPS 2026.</p>
+  <p>Our paper <a href="#openwhistle">OpenWhistle</a> was accepted as a spotlight paper at NeurIPS 2026 (top 1.3% of submissions).</p>
 </article>
 
 <article class="news-card">
@@ -128,7 +128,7 @@ More broadly, I am interested in developing computational tools to uncover the p
 
 ::: {.column width="70%"}
 
-<h3>OpenWhistle: A Large-Scale Longitudinal Dataset and Benchmark of Bottlenose Dolphin Vocalizations <span class="pub-status accepted">NeurIPS 2026 Spotlight</span></h3>
+<h3>OpenWhistle: A Large-Scale Longitudinal Dataset and Benchmark of Bottlenose Dolphin Vocalizations <span class="pub-status accepted">NeurIPS 2026 Spotlight · Top 1.3%</span></h3>
 
 **F. Mustun**\*, C. Semenzin\*, R. Dessì, P. Robin Guerrero, P. Orhan, A. Emanuelli, E. Rossi, Y. Lakretz, G. de Polavieja, G. Sumbre.\
 <span class="equal-note">\* Equal contribution</span>
