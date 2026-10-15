@@ -649,3 +649,163 @@ hr {
     margin-bottom: 0.1rem;
   }
 }
+
+/* "Open to opportunities" badge and callout */
+.open-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.4rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  background: var(--secondary-light);
+  border: 1px solid rgba(200, 155, 60, 0.45);
+  color: #8a6420;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.3;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.open-badge:hover,
+.open-badge:focus {
+  background: var(--secondary);
+  color: var(--card);
+  text-decoration: none;
+}
+
+.open-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: #2f9e5b;
+  box-shadow: 0 0 0 0 rgba(47, 158, 91, 0.6);
+  animation: open-pulse 2s infinite;
+}
+
+@keyframes open-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(47, 158, 91, 0.55); }
+  70% { box-shadow: 0 0 0 0.45rem rgba(47, 158, 91, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(47, 158, 91, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .open-dot { animation: none; }
+}
+
+.open-callout {
+  margin-top: 1.1rem;
+  padding: 0.9rem 1.1rem;
+  background: var(--secondary-light);
+  border: 1px solid rgba(200, 155, 60, 0.35);
+  border-left: 4px solid var(--secondary);
+  border-radius: 12px;
+  scroll-margin-top: 5rem;
+}
+
+.open-callout p {
+  margin: 0;
+}
+
+.open-callout a {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+/* Emoji in news titles */
+.news-emoji {
+  display: inline-block;
+  margin-right: 0.45rem;
+}
+
+/* Anchored sections should not hide under the sticky navbar */
+.timeline-list {
+  margin-bottom: 1.75rem;
+}
+
+section[id], .pub-card[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* Equal-contribution note */
+.equal-note {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* "Show more" for older news */
+.news-more {
+  margin: -0.85rem 0 1.75rem;
+}
+
+.news-more > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  list-style: none;
+  cursor: pointer;
+  margin-bottom: 0.9rem;
+  padding: 0.15rem 0;
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.88rem;
+  border-bottom: 1px dashed transparent;
+  transition: color 0.2s ease, border-color 0.2s ease, font-size 0.2s ease, opacity 0.2s ease;
+}
+
+.news-more > summary::-webkit-details-marker {
+  display: none;
+}
+
+.news-more > summary::after {
+  content: "▾";
+  font-size: 0.8em;
+  transition: transform 0.2s ease;
+}
+
+.news-more[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+.news-more > summary:hover,
+.news-more > summary:focus-visible {
+  color: var(--primary);
+  border-bottom-color: currentColor;
+  outline: none;
+}
+
+/* Once opened, the toggle fades into a small "Show less" */
+.news-more[open] > summary {
+  font-size: 0.78rem;
+  font-weight: 500;
+  opacity: 0.6;
+  margin-bottom: 0.6rem;
+}
+
+.news-more[open] > summary:hover,
+.news-more[open] > summary:focus-visible {
+  opacity: 1;
+}
+
+.news-more[open] .news-list {
+  animation: news-reveal 0.3s ease;
+}
+
+@keyframes news-reveal {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: none; }
+}
+
+.news-more-close,
+.news-more[open] .news-more-open {
+  display: none;
+}
+
+.news-more[open] .news-more-close {
+  display: inline;
+}
+
+.news-more .news-list {
+  margin-top: 0;
+}

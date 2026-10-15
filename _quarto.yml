@@ -16,6 +16,10 @@ website:
         href: index.qmd#publications
       - text: Talks
         href: index.qmd#selected-talks-posters
+      - text: Funding
+        href: index.qmd#funding-awards
+      - text: Experience
+        href: index.qmd#research-experience
       - text: Education
         href: index.qmd#education
 

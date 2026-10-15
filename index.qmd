@@ -14,11 +14,16 @@ title: ""
 Postdoctoral Researcher · ENS Paris
 </p>
 
+<a class="open-badge" href="#open-to-opportunities"><span class="open-dot" aria-hidden="true"></span>Open to postdoc opportunities</a>
+
 <nav class="contact-links" aria-label="Contact links">
 <a href="mailto:faadilmustun@hotmail.fr" aria-label="Email"><i class="bi bi-envelope-fill"></i><span>Email</span></a>
 <a href="https://scholar.google.com/citations?user=yCws0CEAAAAJ&hl=en" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i><span>Scholar</span></a>
 <a href="https://github.com/fmustun" aria-label="GitHub"><i class="bi bi-github"></i><span>GitHub</span></a>
 <a href="https://www.linkedin.com/in/faadil-mustun/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i><span>LinkedIn</span></a>
+<!-- Once the updated CV is in files/, uncomment the next line:
+<a href="files/CV_Faadil_Mustun.pdf" aria-label="Curriculum vitae (PDF)"><i class="bi bi-file-earmark-person-fill"></i><span>CV</span></a>
+-->
 </nav>
 
 :::
@@ -33,6 +38,10 @@ My research lies at the intersection of **bioacoustics, animal communication,** 
 
 More broadly, I am interested in developing computational tools to uncover the principles underlying animal communication systems and their evolution. More recently, I have been contributing to the development of multimodal datasets combining acoustic recordings with behavioral annotations extracted from video data.
 
+<div id="open-to-opportunities" class="open-callout">
+<p><strong>🔎 I am looking for my next position.</strong> I am seeking postdoctoral opportunities in computational bioacoustics, animal communication and machine learning for animal behavior, ideally starting around <strong>May 2027</strong> (flexible: earlier or later start dates are possible). If you think my profile could fit your group, I would be happy to hear from you: <a href="mailto:faadilmustun@hotmail.fr">get in touch</a>.</p>
+</div>
+
 :::
 
 :::
@@ -43,47 +52,68 @@ More broadly, I am interested in developing computational tools to uncover the p
 
 <article class="news-card featured">
   <div class="news-meta">01 Oct 2026</div>
-  <h3>PhD successfully defended</h3>
-  <p>Successfully defended my PhD in front of a jury composed of Olivier Adam, Hervé Glotin, Laela Sayigh and Marcelo Rozenberg.</p>
+  <h3><span class="news-emoji" aria-hidden="true">🎓</span>PhD successfully defended</h3>
+  <p>Successfully defended my PhD, <em>From Whistles to Communication: Toward a Computational Understanding of Dolphin Acoustic Signals</em>, in front of a jury composed of Olivier Adam, Hervé Glotin, Laela Sayigh and Marcelo Rozenberg.</p>
 </article>
 
 <article class="news-card featured">
   <div class="news-meta">25 Sep 2026</div>
-  <h3>OpenWhistle accepted as a NeurIPS spotlight</h3>
+  <h3><span class="news-emoji" aria-hidden="true">🌟</span>OpenWhistle accepted as a NeurIPS spotlight</h3>
   <p>Our paper <a href="#openwhistle">OpenWhistle</a> was accepted as a spotlight paper at NeurIPS 2026.</p>
 </article>
 
 <article class="news-card">
   <div class="news-meta">24 Mar 2026</div>
-  <h3>Seminar presentation at IBENS</h3>
+  <h3><span class="news-emoji" aria-hidden="true">🎤</span>Seminar presentation at IBENS</h3>
   <p>Presented my work at the Neurosection Department Seminar, Institut de Biologie, ENS Paris.</p>
 </article>
 
 <article class="news-card featured">
   <div class="news-meta">03 Feb 2026</div>
-  <h3>Dolphin Spotting is live</h3>
+  <h3><span class="news-emoji" aria-hidden="true">🐬</span>Dolphin Spotting is live</h3>
   <p>Launched the citizen science project <a href="https://www.zooniverse.org/projects/sumbredolphin/dolphin-spotting">Dolphin Spotting</a> on Zooniverse to collect behavioral annotations from dolphin video recordings.</p>
 </article>
 
 <article class="news-card featured">
   <div class="news-meta">12 Dec 2025</div>
-  <h3>Dolph2Vec accepted at NeurIPS workshop</h3>
+  <h3><span class="news-emoji" aria-hidden="true">📄</span>Dolph2Vec accepted at NeurIPS workshop</h3>
   <p>Our paper <a href="#dolph2vec">Dolph2Vec</a> was accepted at the <a href="https://aiforanimalcomms.org">AI for Non-Human Animal Communication workshop</a> at NeurIPS 2025.</p>
+</article>
+
+</section>
+
+<details class="news-more">
+<summary><span class="news-more-open">Show more news</span><span class="news-more-close">Show less</span></summary>
+
+<section class="news-list">
+
+<article class="news-card featured">
+  <div class="news-meta">Oct 2025</div>
+  <h3><span class="news-emoji" aria-hidden="true">🏆</span>PSL-Neuro PhD extension funding</h3>
+  <p>Awarded a 9-month <a href="https://www.psl-neuro.psl.eu/en/calls">PSL-Neuro</a> PhD extension grant (Université PSL) to complete my thesis work.</p>
 </article>
 
 <article class="news-card">
   <div class="news-meta">14 Oct 2024</div>
-  <h3>Sharing dolphin communication research with the public</h3>
+  <h3><span class="news-emoji" aria-hidden="true">🔬</span>Sharing dolphin communication research with the public</h3>
   <p>Presented our research on dolphin communication to the general public at the Fête de la Science in Paris.</p>
 </article>
 
 <article class="news-card">
   <div class="news-meta">21 Mar 2023</div>
-  <h3>Guest lecture on dolphin communication</h3>
+  <h3><span class="news-emoji" aria-hidden="true">📚</span>Guest lecture on dolphin communication</h3>
   <p>Gave a guest lecture on dolphin acoustic communication at Ben-Gurion University, Eilat Campus.</p>
 </article>
 
+<article class="news-card featured">
+  <div class="news-meta">Oct 2022</div>
+  <h3><span class="news-emoji" aria-hidden="true">🏆</span>FIRE doctoral fellowship</h3>
+  <p>Started my PhD with a highly competitive doctoral fellowship (2–4 awarded each year out of around 200 applications) from the FIRE PhD program, funded by the Bettencourt Schueller Foundation and the <a href="https://eurip.u-paris.fr/fundings/">EURIP Graduate School</a> (Université Paris Cité).</p>
+</article>
+
 </section>
+
+</details>
 
 
 ## Publications
@@ -100,7 +130,8 @@ More broadly, I am interested in developing computational tools to uncover the p
 
 <h3>OpenWhistle: A Large-Scale Longitudinal Dataset and Benchmark of Bottlenose Dolphin Vocalizations <span class="pub-status accepted">NeurIPS 2026 Spotlight</span></h3>
 
-**F. Mustun**, C. Semenzin (*equal contribution*), R. Dessì, P. Robin Guerrero, P. Orhan, A. Emanuelli, E. Rossi, Y. Lakretz, G. de Polavieja, G. Sumbre.
+**F. Mustun**\*, C. Semenzin\*, R. Dessì, P. Robin Guerrero, P. Orhan, A. Emanuelli, E. Rossi, Y. Lakretz, G. de Polavieja, G. Sumbre.\
+<span class="equal-note">\* Equal contribution</span>
 
 OpenWhistle is the largest publicly available dataset of bottlenose dolphin vocalizations: approximately 180,000 whistles (114 hours) recorded over five years from a stable pod of five individuals in a semi-natural environment. It includes 8,354 expert-annotated whistles, reproducible detection and classification benchmarks, the full processing pipeline, and a Wav2Vec2.0 model pretrained specifically on dolphin acoustics.
 
@@ -142,7 +173,7 @@ Dolph2Vec is a self-supervised learning framework trained directly on dolphin vo
 
 :::
 
-::: {.columns .pub-card}
+::: {#whistle-variability .columns .pub-card}
 
 ::: {.column width="30%"}
 
@@ -152,11 +183,14 @@ Dolph2Vec is a self-supervised learning framework trained directly on dolphin vo
 
 ::: {.column width="70%"}
 
-<h3>Whistle Variability and Social Acoustic Interactions in Bottlenose Dolphins <span class="pub-status under-review">Under review</span></h3>
+<h3>Whistle Variability and Social Acoustic Interactions in a Small Pod of Bottlenose Dolphins <span class="pub-status under-review">Under review</span></h3>
 
-**F. Mustun**, C. Semenzin (*equal contribution*), D. Rance, E. Marachlian, Z. Guillerm, A. Mancini, I. Bouaziz, E. Fleck, N. Shashar, G. de Polavieja, G. Sumbre.
+**F. Mustun**\*, C. Semenzin\*, D. Rance, E. Marachlian, Z. Guillerm, A. Mancini, P. Robin Guerrero, I. Bouaziz, E. Fleck, N. Shashar, G. de Polavieja, G. Sumbre.\
+<span class="equal-note">\* Equal contribution</span>
 
-This work shows that dolphin signature whistles exhibit structured within-individual variability rather than stereotyped production. By modeling transitions between whistle variants, we reveal non-random acoustic interaction patterns that form a modular social communication network.
+*Advanced Science*, revised manuscript under review.
+
+Signature whistles are individual identity signals, but their within-individual variability is not random: it falls into discrete sub-categories defined by stereotyped, localized frequency modulations. Modeling transitions between these sub-categories reveals a modular communication network that mirrors the pod's social structure, and in which whistle types matching the signature whistles of deceased mothers are embedded within their offspring's clusters, suggesting whistles may carry information beyond identity.
 
 ::: {.pub-links}
 [Preprint](https://www.biorxiv.org/content/10.1101/2024.10.15.618471v1){.pub-button}
@@ -195,6 +229,15 @@ Institut de Biologie, ENS Paris.
 
 ::: {.talk-item}
 ::: {.talk-main}
+### Guest lecture, Ben-Gurion University
+:::
+::: {.talk-year}
+2023
+:::
+:::
+
+::: {.talk-item}
+::: {.talk-main}
 ### Protolang <a class="talk-link" href="https://sites.google.com/view/protolang8/home" target="_blank" rel="noopener" aria-label="Protolang link"><i class="bi bi-link-45deg"></i></a>
 
 Rome.
@@ -211,7 +254,7 @@ Rome.
 Lyon.
 :::
 ::: {.talk-year}
-2023–2024
+2021 & 2023
 :::
 :::
 
@@ -228,24 +271,61 @@ Lisbon.
 
 :::
 
-## Education
+## Funding & Awards
 
-**PhD** —Université Paris Cité / École Normale Supérieure - Paris, 2022-2026
+::: {.timeline-list}
 
-**Master’s Degree in Applied Mathematics (Specialization: Statistics)** — Sorbonne Universités - Paris, 2019
+::: {.timeline-item}
+::: {.timeline-date}
+2025–2026
+:::
+::: {.timeline-content}
+**PSL-Neuro PhD extension funding** — Université PSL. Competitive 9-month grant to complete the PhD. [Call page](https://www.psl-neuro.psl.eu/en/calls)
+:::
+:::
 
-**Bachelor’s Degree in Mathematics** — Université Pierre et Marie Curie - Paris, 2016
+::: {.timeline-item}
+::: {.timeline-date}
+2022–2025
+:::
+::: {.timeline-content}
+**FIRE doctoral fellowship** — FIRE PhD program (Doctoral School 474), funded by the Bettencourt Schueller Foundation and the EURIP Graduate School, Université Paris Cité (ANR-17-EURE-0012). Highly competitive: 2–4 fellowships awarded each year out of around 200 applications. [EURIP fundings](https://eurip.u-paris.fr/fundings/)
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-date}
+2018–2019
+:::
+::: {.timeline-content}
+**Accommodation grant** — Fondation de France / Cité internationale universitaire de Paris. Covered my accommodation for the full academic year of the final year (M2) of my Master's degree.
+:::
+:::
+
+:::
 
 ## Research Experience
 
-**Postdoctoral Researcher**, INSERM / IBENS, Paris, France *(2026–Present)*  
+**Postdoctoral Researcher**, INSERM / IBENS, Paris, France *(2026–Present)*\
 Research on dolphin communication, bioacoustics, and machine learning.
 
-**PhD Candidate**, Institut de Biologie de l'École Normale Supérieure (IBENS), Université Paris Cité, Paris, France *(2022–2026)*  
+**PhD Candidate**, Institut de Biologie de l'École Normale Supérieure (IBENS), Université Paris Cité, Paris, France *(2022–2026)*\
 Research on dolphin communication, bioacoustics, and machine learning.
 
-**Statistical Engineer**, INSERM / IBENS, Paris, France *(2021–2022)*  
+**Statistical Engineer**, INSERM / IBENS, Paris, France *(2021–2022)*\
 Developed computational methods for dolphin vocalization detection, classification, and sequence analysis.
 
-**Data Science Intern**, Audentiel Conseil R&D, Boulogne-Billancourt, France *(2019)*  
+**Data Science Intern**, Audentiel Conseil R&D, Boulogne-Billancourt, France *(2019)*\
 Worked on hyperparameter optimization and machine learning model selection.
+
+## Education
+
+**PhD in Cognitive Science, Psychology, Linguistics and Philosophy of Mind** — Université Paris Cité / École Normale Supérieure, Paris, 2022–2026\
+Thesis: *From Whistles to Communication: Toward a Computational Understanding of Dolphin Acoustic Signals.* Supervised by Germán Sumbre.
+<!-- Once the thesis PDF is in files/, uncomment the next line:
+[Thesis (PDF)](files/PhD_Thesis_Mustun.pdf){.pub-button .secondary}
+-->
+
+**Master's Degree in Applied Mathematics (Specialization: Statistics)** — Sorbonne Université, Paris, 2019
+
+**Bachelor's Degree in Mathematics** — Université Pierre et Marie Curie, Paris, 2016
